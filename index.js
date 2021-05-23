@@ -12,5 +12,5 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials.map(string => string.slic)
+  return tutorials.map(sentence => sentence.toLowerCase().split(' '))
 }
